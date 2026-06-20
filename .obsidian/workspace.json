@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b8f3cedd75dc1513",
+        "id": "927fa8c137148c10",
         "type": "tabs",
         "children": [
           {
-            "id": "312dcbb7dc9c5e82",
+            "id": "9ab169484831c76d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Vault/Собес по проге/Алгоритмы.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Алгоритмы"
             }
           }
         ]
@@ -173,9 +177,28 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "312dcbb7dc9c5e82",
-  "lastOpenFiles": []
+  "active": "9ab169484831c76d",
+  "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin/Generics.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Extension Functions.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Coroutines и Flow.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Типы классов.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Коллекции.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Исключения.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Видимость Kotlin vs Java.md",
+    "Obsidian Vault/Собес по проге/Алгоритмы.md",
+    "Obsidian Vault/Java.md",
+    "Obsidian Vault/Kotlin.md",
+    "Obsidian Vault/Kotlin в Adroid.md",
+    "Obsidian Vault/Pasted image 20260606142300.png",
+    "Obsidian Vault/Untitled.base",
+    "Obsidian Vault/Untitled 1.base",
+    "Obsidian Vault/Untitled 2.base",
+    "Obsidian Vault/Untitled 3.base",
+    "Obsidian Vault/Собес по проге/Hibernate.md"
+  ]
 }

@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Собес по проге/Kotlin/Типы классов.md",
+                "file": "Собес по проге/комментарии с собеса/Пример собеседования.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Типы классов"
+              "title": "Пример собеседования"
             }
           }
         ],
@@ -53,7 +53,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SELECT",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Собес по проге/Kotlin/Типы классов.md",
+                "file": "Собес по проге/комментарии с собеса/Пример собеседования.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Типы классов"
+              "title": "Обратные ссылки для Пример собеседования"
             }
           },
           {
@@ -192,8 +192,18 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9c0b692652137245",
+  "active": "74d4096445db0d21",
   "lastOpenFiles": [
+    "Собес по проге/Kotlin/Типы классов.md",
+    "Собес по проге/комментарии с собеса/Пример собеседования.md",
+    "Собес по проге/Kotlin в Android/Android KTX (Kotlin Extensions).md",
+    "Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
+    "Собес по проге/Kotlin в Android/Тестирование.md",
+    "Собес по проге/Алгоритмы.md",
+    "Собес по проге/Kotlin/Serializable и Parcelable.md",
+    "Собес по проге/Kotlin/Коллекции.md",
+    "Собес по проге/Kotlin/Исключения.md",
+    "Собес по проге/Kotlin/Thread.md",
     "Собес по проге/Kotlin/Scope.md",
     "Kotlin.md",
     "Java.md",
@@ -202,24 +212,14 @@
     "Собес по проге/Kotlin в Android/Lifecycle-aware Components.md",
     "Собес по проге/Kotlin в Android/Dependency Injection (Внедрение зависимостей) с Hilt.md",
     "Собес по проге/Kotlin/Generics.md",
-    "Собес по проге/Kotlin/Исключения.md",
     "Собес по проге/Kotlin/Null Safety.md",
     "Собес по проге/Kotlin/Extension Functions.md",
     "Собес по проге/Java/nested classes vs inner classes.md",
-    "Собес по проге/Kotlin/Типы классов.md",
     "Собес по проге/Kotlin/Видимость Kotlin vs Java.md",
     "Собес по проге/Kotlin/Scope functions.md",
     "Собес по проге/Java/Generics.md",
     "Собес по проге/Java/hashCode.md",
     "Собес по проге/Java/ArrayList, LinkedList, HashMap, HashSet.md",
-    "Собес по проге/Java/Threads.md",
-    "Собес по проге/Hibernate.md",
-    "Собес по проге/Java/for-each.md",
-    "Собес по проге/Java/Iterable, Iterator.md",
-    "Собес по проге/Kotlin в Android/Room.md",
-    "Собес по проге/Kotlin в Android/Retrofit.md",
-    "Собес по проге/Java/synchronized, volatile.md",
-    "Собес по проге/комментарии с собеса/Пример собеседования.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 2.base",

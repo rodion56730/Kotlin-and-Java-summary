@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Собес по проге/Kotlin в Android/Процессы.md",
+                "file": "Собес по проге/Kotlin/Scope.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Процессы"
+              "title": "Scope"
             }
           }
         ],
@@ -194,9 +194,16 @@
   },
   "active": "9c0b692652137245",
   "lastOpenFiles": [
+    "Собес по проге/Kotlin/Thread.md",
+    "Собес по проге/Kotlin/Serializable и Parcelable.md",
+    "Собес по проге/Kotlin/Scope functions.md",
+    "Собес по проге/Kotlin в Android/XML vs Compose.md",
+    "Собес по проге/Kotlin в Android/Jetpack Compose (Декларативный UI).md",
+    "Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
+    "Собес по проге/Kotlin в Android/Side-эффекты.md",
+    "Собес по проге/Kotlin в Android/Процессы.md",
     "Собес по проге/Kotlin в Android/Activity и Fragment.md",
     "Pasted image 20260708015542.png",
-    "Собес по проге/Kotlin в Android/Процессы.md",
     "Собес по проге/Kotlin в Android/TBank.md",
     "Собес по проге/Kotlin в Android/Navigation Component.md",
     "Собес по проге/Java/JVM стек.md",
@@ -206,20 +213,14 @@
     "Собес по проге/комментарии с собеса/Пример собеседования.md",
     "Собес по проге/Kotlin/Типы классов.md",
     "Собес по проге/Kotlin в Android/Android KTX (Kotlin Extensions).md",
-    "Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
     "Собес по проге/Kotlin в Android/Тестирование.md",
     "Собес по проге/Алгоритмы.md",
-    "Собес по проге/Kotlin/Serializable и Parcelable.md",
     "Собес по проге/Kotlin/Коллекции.md",
     "Собес по проге/Kotlin/Исключения.md",
-    "Собес по проге/Kotlin/Thread.md",
     "Собес по проге/Kotlin/Scope.md",
     "Kotlin.md",
     "Java.md",
     "Собес по проге/Kotlin в Android/ViewModel и LiveData StateFlow.md",
-    "Собес по проге/Kotlin в Android/Lifecycle-aware Components.md",
-    "Собес по проге/Kotlin в Android/Dependency Injection (Внедрение зависимостей) с Hilt.md",
-    "Собес по проге/Kotlin/Generics.md",
     "Untitled.base",
     "Untitled 1.base",
     "Untitled 2.base",

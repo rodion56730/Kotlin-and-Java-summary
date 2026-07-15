@@ -135,12 +135,12 @@ fragment.arguments = bundleOf(
 
 ### Ключевые модули для добавления в проект:
 
-|**Зависимость**|**Что дает**|
-|---|---|
-|`androidx.core:core-ktx`|Базовые расширения (View, Bundle, и др.)|
-|`androidx.fragment:fragment-ktx`|Делегат `by viewModels()`, навигация|
-|`androidx.lifecycle:lifecycle-runtime-ktx`|`lifecycleScope` и корутины в UI|
-|`androidx.collection:collection-ktx`|Эффективная работа с массивами-коллекциями|
+| **Зависимость**                            | **Что дает**                               |
+| ------------------------------------------ | ------------------------------------------ |
+| `androidx.core:core-ktx`                   | Базовые расширения (View, Bundle, и др.)   |
+| `androidx.fragment:fragment-ktx`           | Делегат `by viewModels()`, навигация       |
+| `androidx.lifecycle:lifecycle-runtime-ktx` | `lifecycleScope` и корутины в UI           |
+| `androidx.collection:collection-ktx`       | Эффективная работа с массивами-коллекциями |
 
 ---
 

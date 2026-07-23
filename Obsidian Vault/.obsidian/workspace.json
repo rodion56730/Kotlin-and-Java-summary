@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Собес по проге/Kotlin/Scope.md",
+                "file": "Собес по проге/Kotlin/Serializable и Parcelable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scope"
+              "title": "Serializable и Parcelable"
             }
           }
         ],
@@ -194,6 +194,7 @@
   },
   "active": "9c0b692652137245",
   "lastOpenFiles": [
+    "Собес по проге/Kotlin/Scope.md",
     "Собес по проге/Kotlin/Thread.md",
     "Собес по проге/Kotlin/Serializable и Parcelable.md",
     "Собес по проге/Kotlin/Scope functions.md",
@@ -217,7 +218,6 @@
     "Собес по проге/Алгоритмы.md",
     "Собес по проге/Kotlin/Коллекции.md",
     "Собес по проге/Kotlin/Исключения.md",
-    "Собес по проге/Kotlin/Scope.md",
     "Kotlin.md",
     "Java.md",
     "Собес по проге/Kotlin в Android/ViewModel и LiveData StateFlow.md",

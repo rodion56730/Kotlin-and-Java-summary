@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Context.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Dependency Injection (Внедрение зависимостей) с Hilt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Context"
+              "title": "Dependency Injection (Внедрение зависимостей) с Hilt"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Context.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Clean Architecture.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Context.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Android KTX (Kotlin Extensions).md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Проблемные темы.md",

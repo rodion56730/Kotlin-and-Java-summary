@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Jetpack Compose (Декларативный UI).md",
+                "file": "Obsidian Vault/Собес по проге/Java/ArrayList, LinkedList, HashMap, HashSet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jetpack Compose (Декларативный UI)"
+              "title": "ArrayList, LinkedList, HashMap, HashSet"
             }
           }
         ]
@@ -183,9 +183,11 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin/Коллекции.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Тестирование.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Jetpack Compose (Декларативный UI).md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Intent.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Dependency Injection (Внедрение зависимостей) с Hilt.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Jetpack Compose (Декларативный UI).md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Handler и Looper.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Context.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
@@ -197,7 +199,6 @@
     "Obsidian Vault/Собес по проге/Kotlin в Android/Activity и Fragment.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
     "Obsidian Vault/Собес по проге/Kotlin/Типы классов.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Тестирование.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Процессы.md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
     "Obsidian Vault/Собес по проге/Kotlin/Null Safety.md",
@@ -208,7 +209,6 @@
     "Obsidian Vault/Собес по проге/Jetpack compose/Темы.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/Анимации.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/LazyColumn и LazyRow.md",
-    "Obsidian Vault/Собес по проге/Jetpack compose/Layouts.md",
     "Obsidian Vault/Собес по проге/Jetpack compose",
     "Без названия",
     "Pasted image 20260728010420.png",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Lifecycle-aware Components.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Profiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lifecycle-aware Components"
+              "title": "Profiler"
             }
           }
         ]
@@ -183,6 +183,9 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Navigation Component.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Lifecycle-aware Components.md",
+    "Pasted image 20260803190019.png",
     "Obsidian Vault/Собес по проге/Kotlin в Android/KMP.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Jetpack Compose (Декларативный UI).md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Intent.md",
@@ -207,8 +210,6 @@
     "Obsidian Vault/Собес по проге/Kotlin в Android/Процессы.md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
     "Obsidian Vault/Собес по проге/Kotlin/Null Safety.md",
-    "Obsidian Vault/Собес по проге/Jetpack compose/Тестирование в Jetpack compose.md",
-    "Obsidian Vault/Собес по проге/Jetpack compose/Canvas.md",
     "Obsidian Vault/Собес по проге/Jetpack compose",
     "Без названия",
     "Pasted image 20260728010420.png",

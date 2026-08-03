@@ -28,24 +28,136 @@ fun MyScreen(viewModel: MyViewModel) {
 
 ## 2. Эффекты: `DisposableEffect` и `LaunchedEffect`
 
-Если вам нужно выполнить действие при «рождении» компонента и очистить ресурсы при его «смерти» (аналог `onCreate` и `onDestroy`), используются эффекты.
+Если вам нужно выполнить действие при «рождении» компонента и очистить ресурсы при его «смерти» (аналог `onCreate` и `onDestroy`), используются эффекты.
 
-### `DisposableEffect` (Для очистки ресурсов)
+---
+
+### LaunchedEffect (Для корутин и одноразовых действий)
+
+Запускает корутину при входе компонента в композицию. Автоматически отменяет её при выходе или при изменении ключа. Это основной способ запускать асинхронный код при появлении экрана.
+
+```kotlin
+@Composable
+fun UserScreen(userId: String, viewModel: UserViewModel) {
+
+    // Unit как ключ — выполнится один раз при появлении компонента
+    LaunchedEffect(Unit) {
+        viewModel.loadInitialData()
+    }
+
+    // userId как ключ — перезапустится каждый раз когда userId изменится
+    // предыдущая корутина будет отменена перед запуском новой
+    LaunchedEffect(userId) {
+        viewModel.loadUser(userId)
+    }
+
+    // Несколько ключей — перезапускается если изменился хотя бы один
+    LaunchedEffect(userId, viewModel) {
+        viewModel.loadUser(userId)
+    }
+}
+```
+
+**Показ Snackbar — классический пример:**
+
+```kotlin
+@Composable
+fun FormScreen(viewModel: FormViewModel) {
+    val snackbarHostState = remember { SnackbarHostState() }
+    val errorMessage by viewModel.errorMessage.collectAsState()
+
+    // Реагируем на появление ошибки
+    LaunchedEffect(errorMessage) {
+        errorMessage?.let {
+            snackbarHostState.showSnackbar(it) // suspend-функция — только в корутине
+            viewModel.clearError()
+        }
+    }
+
+    Scaffold(snackbarHost = { SnackbarHost(snackbarHostState) }) {
+        // контент
+    }
+}
+```
+
+**Навигация по одноразовому событию:**
+
+```kotlin
+@Composable
+fun LoginScreen(viewModel: LoginViewModel, onLoginSuccess: () -> Unit) {
+    val effect by viewModel.effect.collectAsState(initial = null)
+
+    LaunchedEffect(effect) {
+        when (effect) {
+            is LoginEffect.NavigateToHome -> onLoginSuccess()
+            else -> Unit
+        }
+    }
+}
+```
+
+---
+
+### DisposableEffect (Для очистки ресурсов)
 
 Идеально подходит для регистрации слушателей, датчиков или подписок.
 
-```Kotlin
+```kotlin
 @Composable
 fun SensorScreen(sensorManager: SensorManager) {
     DisposableEffect(Unit) {
         val listener = SensorEventListener { /* ... */ }
         sensorManager.registerListener(listener, ...)
 
-        // Этот блок выполнится, когда компонент исчезнет с экрана (onDispose)
+        // Этот блок выполнится когда компонент исчезнет с экрана
         onDispose {
             sensorManager.unregisterListener(listener)
         }
     }
+}
+```
+
+---
+
+### Разница между LaunchedEffect и DisposableEffect
+
+![[Pasted image 20260803190019.png]]
+
+```kotlin
+// LaunchedEffect — для suspend
+LaunchedEffect(Unit) {
+    delay(3000)            // можно
+    api.loadData()         // можно — suspend
+    flow.collect { }       // можно — suspend
+}
+
+// DisposableEffect — для синхронного кода с очисткой
+DisposableEffect(lifecycleOwner) {
+    val observer = LifecycleEventObserver { _, event -> }
+    lifecycleOwner.lifecycle.addObserver(observer) // синхронно
+
+    onDispose {
+        lifecycleOwner.lifecycle.removeObserver(observer) // очистка
+    }
+}
+```
+
+**Ловушка — LaunchedEffect не подходит для очистки listener'ов:**
+
+```kotlin
+// ПЛОХО — нет гарантии очистки если корутина отменится до unregister
+LaunchedEffect(Unit) {
+    val listener = MyListener()
+    someManager.register(listener)
+    // если корутина отменится здесь — unregister не вызовется!
+    someManager.unregister(listener)
+}
+
+// ХОРОШО — onDispose вызывается гарантированно
+DisposableEffect(Unit) {
+    val listener = MyListener()
+    someManager.register(listener)
+    onDispose { someManager.unregister(listener) }
 }
 ```
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Jetpack compose/Темы.md",
+                "file": "Obsidian Vault/Собес по проге/Java/Автобоксинг и Анбоксинг.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Темы"
+              "title": "Автобоксинг и Анбоксинг"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/комментарии с собеса/Пример собеседования.md",
+    "Obsidian Vault/Собес по проге/Jetpack compose/Темы.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/Жесты.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/Анимации.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/XML vs Compose.md",
@@ -203,13 +205,11 @@
     "Obsidian Vault/Собес по проге/Kotlin в Android/Intent.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Тестирование.md",
-    "Obsidian Vault/Собес по проге/Jetpack compose/Темы.md",
     "Obsidian Vault/Собес по проге/Java/ArrayList, LinkedList, HashMap, HashSet.md",
     "Obsidian Vault/Собес по проге/Kotlin/Коллекции.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Dependency Injection (Внедрение зависимостей) с Hilt.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Handler и Looper.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Context.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
     "Obsidian Vault/Собес по проге/Jetpack compose",
     "Без названия",
     "Pasted image 20260728010420.png",

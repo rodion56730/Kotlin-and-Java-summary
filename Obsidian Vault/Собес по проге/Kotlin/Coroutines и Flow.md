@@ -1296,12 +1296,12 @@ try-catch
 
 ## Чем StateFlow отличается от SharedFlow?
 
-|StateFlow|SharedFlow|
-|---|---|
-|хранит state|события|
-|всегда value|может не иметь|
-|replay = 1|configurable|
-|UI state|navigation/toast|
+| StateFlow    | SharedFlow       |
+| ------------ | ---------------- |
+| хранит state | события          |
+| всегда value | может не иметь   |
+| replay = 1   | configurable     |
+| UI state     | navigation/toast |
 
 ---
 

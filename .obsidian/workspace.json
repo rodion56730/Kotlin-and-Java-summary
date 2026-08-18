@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin/Generics.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin/inline функции.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generics"
+              "title": "inline функции"
             }
           }
         ]
@@ -183,6 +183,7 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin/Generics.md",
     "Obsidian Vault/Собес по проге/Kotlin/Extension Functions.md",
     "Obsidian Vault/Собес по проге/Команды SQL.md",
     "Obsidian Vault/Kotlin.md",
@@ -209,7 +210,6 @@
     "Obsidian Vault/Собес по проге/Java/abstract class vs interface.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Intent.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Android KTX (Kotlin Extensions).md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Процессы.md",
     "Pasted image 20260803190019.png",
     "Obsidian Vault/Собес по проге/Jetpack compose",
     "Без названия",

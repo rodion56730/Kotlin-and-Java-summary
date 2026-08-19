@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin/Scope.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scope"
+              "title": "Serializable и Parcelable"
             }
           }
         ]
@@ -183,11 +183,12 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Паттерн TEA (The Elm Architecture).md",
+    "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Scope.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
     "Obsidian Vault/Собес по проге/Kotlin/Thread.md",
-    "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
-    "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
-    "Obsidian Vault/Собес по проге/Kotlin/Scope.md",
     "Obsidian Vault/Собес по проге/Kotlin/Null Safety.md",
     "Obsidian Vault/Собес по проге/Kotlin/Kotlin vs Java.md",
     "Obsidian Vault/Собес по проге/Kotlin/inline функции.md",
@@ -204,7 +205,6 @@
     "Obsidian Vault/Собес по проге/Java/Автобоксинг и Анбоксинг.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/Тестирование в Jetpack compose.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/MVI.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Паттерн TEA (The Elm Architecture).md",
     "Без названия.canvas",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Activity, Service, BroadcastReceiver, Content provider.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/ViewModel и LiveData StateFlow.md",

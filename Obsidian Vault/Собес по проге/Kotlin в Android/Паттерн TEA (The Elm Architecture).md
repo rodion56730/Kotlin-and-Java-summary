@@ -26,13 +26,13 @@ User Action → Message → Update(Model, Message) → новый Model → View
 
 ## Соответствие TEA → MVI → Android
 
-|TEA|MVI|Android реализация|
-|---|---|---|
-|Model|State|`data class UiState`|
-|Message|Intent|`sealed class Intent`|
-|Update|Reducer|`fun reduce(state, intent)`|
-|View|UI|Composable / Fragment|
-|Command|Effect/SideEffect|`sealed class Effect`|
+| TEA     | MVI               | Android реализация          |
+| ------- | ----------------- | --------------------------- |
+| Model   | State             | `data class UiState`        |
+| Message | Intent            | `sealed class Intent`       |
+| Update  | Reducer           | `fun reduce(state, intent)` |
+| View    | UI                | Composable / Fragment       |
+| Command | Effect/SideEffect | `sealed class Effect`       |
 
 ---
 

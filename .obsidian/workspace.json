@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Serializable и Parcelable"
+              "title": "Ловушки Jetpack compose"
             }
           }
         ]
@@ -183,11 +183,11 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
+    "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Паттерн TEA (The Elm Architecture).md",
-    "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
     "Obsidian Vault/Собес по проге/Kotlin/Thread.md",
     "Obsidian Vault/Собес по проге/Kotlin/Null Safety.md",
     "Obsidian Vault/Собес по проге/Kotlin/Kotlin vs Java.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
+                "file": "Obsidian Vault/Собес по проге/Kotlin в Android/Activity и Fragment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ловушки Jetpack compose"
+              "title": "Activity и Fragment"
             }
           }
         ]
@@ -183,11 +183,15 @@
   },
   "active": "9ab169484831c76d",
   "lastOpenFiles": [
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Aрхитектура MVVM Clean.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Тестирование.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Процессы.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Проблемные темы.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Паттерн TEA (The Elm Architecture).md",
     "Obsidian Vault/Собес по проге/Kotlin в Android/Ловушки Jetpack compose.md",
+    "Obsidian Vault/Собес по проге/Kotlin в Android/Аннотации.md",
     "Obsidian Vault/Собес по проге/Kotlin/Serializable и Parcelable.md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope functions.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Паттерн TEA (The Elm Architecture).md",
     "Obsidian Vault/Собес по проге/Kotlin/Scope.md",
     "Obsidian Vault/Собес по проге/Kotlin/Thread.md",
     "Obsidian Vault/Собес по проге/Kotlin/Null Safety.md",
@@ -205,11 +209,7 @@
     "Obsidian Vault/Собес по проге/Jetpack compose/Анимации.md",
     "Obsidian Vault/Собес по проге/Java/Автобоксинг и Анбоксинг.md",
     "Obsidian Vault/Собес по проге/Jetpack compose/Тестирование в Jetpack compose.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/MVI.md",
     "Без названия.canvas",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/Activity, Service, BroadcastReceiver, Content provider.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/ViewModel и LiveData StateFlow.md",
-    "Obsidian Vault/Собес по проге/Kotlin в Android/ViewBinding findViewById DataBinding.md",
     "Pasted image 20260803190019.png",
     "Obsidian Vault/Собес по проге/Jetpack compose",
     "Без названия",
